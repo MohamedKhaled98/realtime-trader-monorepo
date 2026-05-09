@@ -54,7 +54,7 @@ export function QuoteList() {
             type="button"
             onClick={() => setIsSearchOpen(true)}
             aria-label="Search tickers"
-            className="rounded p-1 text-zinc-400 transition hover:bg-zinc-800 hover:text-zinc-100"
+            className="rounded p-1 text-emerald-400 transition hover:bg-zinc-800 hover:text-zinc-100"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
