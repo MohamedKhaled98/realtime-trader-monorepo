@@ -29,6 +29,15 @@ cd backend/gateway  && npm install && npm run dev
 cd client           && npm install && npm run dev
 ```
 
+### Environment
+
+Copy `.env.example` to `.env` and set `FINNHUB_TOKEN`. Get a free token by signing up at [https://finnhub.io](https://finnhub.io) — the free tier is enough for this app.
+
+```bash
+cp .env.example .env
+# then edit .env and paste your token into FINNHUB_TOKEN=
+```
+
 ## Implementation notes
 
 - **Split into microservices** so ingestor and gateway scale independently.
