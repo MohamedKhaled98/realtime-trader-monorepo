@@ -1,0 +1,14 @@
+/backend/gateway/node_modules
+/backend/ingestor/node_modules
+/client/node_modules
+
+/backend/gateway/dist
+/backend/ingestor/dist
+/client/dist
+
+# Env files — keep .env.example tracked, ignore everything else
+.env
+.env.local
+.env.*.local
+.env.*
+!.env.example
